@@ -18,7 +18,7 @@ class WebPage{
 	home_desc(){
 		let desc_t  =
 			"Meu nome é Milton, sou desenvolvedor C/C++, C#, Python, Lua<br>" + 
-			"Faço desenvolvimento em Games usando Unreal, Unity e Blender";
+			"e desenvolvimento em Games usando Unreal, Unity e Blender";
 
 		document.getElementById("home_desc").innerHTML = desc_t;
 
