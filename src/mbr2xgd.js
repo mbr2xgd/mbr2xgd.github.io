@@ -24,12 +24,33 @@ class WebPage{
 	home_desc(){
 		let desc_t  =
 			"Meu nome é Milton, sou desenvolvedor C/C++, C#, Python, Lua<br>" + 
-			"e desenvolvimento em Games usando Unreal, Unity e Blender";
+			"e desenvolvimento em Games usando Unreal, Unity e Blender<br>" + 
+			"Link: <a href=\"media.html\" target=\"_top\">My Video</a>";
 
 		document.getElementById("home_desc").innerHTML = desc_t;
 
 	}
 	//descricao na home page... -------------------
+	//testando charset utf8... --------------------
+	home_charset(){
+		let charsetutf8 = 
+		"<h3>testing word:atenção and aten&ccedil;&atilde;o</h3>";
+
+		document.getElementById("home_text").innerHTML = charsetutf8;
+	}
+	//testando charset utf8... --------------------
+	//video test(ogg)... --------------------------
+	media_desc(){
+		let mevideo = 
+		"<video width=\"320\" height=\"240\" controls>" + 
+		"	<source src=\"media/mbr2xgd.ogg\"> type=\"video/ogg\">" + 
+		"	Your browser does not support the video tag..." +
+		"</video>" + 
+		"<p><a href=\"index.html\" target=\"_top\">Home</a></p>";
+
+		document.getElementById("media_video").innerHTML = mevideo;
+	}
+	//video test(ogg)... --------------------------
 	//method... -----------------------------------
 };
 //Class WebPage(corpo da página)... ------------------------------------------------------------
