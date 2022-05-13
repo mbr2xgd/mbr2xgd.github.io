@@ -3,6 +3,9 @@
 
 //Class WebPage(corpo da página)... ------------------------------------------------------------
 class WebPage{
+	#linkRocket = "https://mobjr.com?g=rocket";
+	#linkRocket1 = "https://mobjr.com?g=rocket1";
+	#linkBox = "https://mobjr.com?g=box";
 
 	//begin... ------------------------------------
 	constructor(){
@@ -31,6 +34,16 @@ class WebPage{
 
 	}
 	//descricao na home page... -------------------
+	//links para os games test... -----------------
+	media_games(){
+		let desc_t = 
+			"<h2>Link dos games (testing)...<br><br>" + 
+			"Games: <a href=\"https://mobjr.com?g=box\" target=\"_top\">Demo Box</a><br>" + 
+			"Games: <a href=\"https://mobjr.com?g=rocket\" target=\"_top\">Demo Rocket</a><br></h2>";
+
+		document.getElementById("media_links").innerHTML = desc_t;
+	}
+	//links para os games test... -----------------
 	//testando charset utf8... --------------------
 	home_charset(){
 		let charsetutf8 = 
