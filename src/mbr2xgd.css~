@@ -1,0 +1,20 @@
+
+/*file: mbr2xgd.css ------------------------------------------------------------------------------------------------*/
+
+body{
+	font-family: monospace;
+	font-size: 14px;
+
+	color:black;
+	background-color: white;
+
+	text-align:center;
+	text-shadow:0px 1px 5px black;
+}
+
+
+h3{
+}
+
+
+/*file: mbr2xgd.css ------------------------------------------------------------------------------------------------*/

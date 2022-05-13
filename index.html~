@@ -1,15 +1,39 @@
 <!DocType html>
 <html>
 	<head>
-		<title>MbR2XgD GitHub - Home</title>
-		<meta http-equiv="content-type" content="text/html/charset=iso-utf-8">
+		<title>MbR2XgD github - Home</title>
+
+		<!-- meta params =================================================================== -->
+		<meta charset=utf-8">
+		<!--meta http-equiv="content-type" content="text/html/charset=iso-utf-8" -->
+		<meta name="robots" content="noindex,nofollow">
+		<meta name="author" content="Milton Bucheb Junior">
+		<!-- meta params =================================================================== -->
+
+		<!-- default scripts... =======================-->
+		<link rel="stylesheet" href="src/mbr2xgd.css">
+		<link rel="shortcut icon" href="mbr2xgd.ico">
 		<script src="src/mbr2xgd.js"><!--nojs--></script>
-		<link rel="src/mbr2xgd.css">
+		<!-- default scripts... =======================-->
 	</head>
-	<body>
-		
-		<div align="center">
-			testing...
-		</div>
+	<!-- body text===================================-->
+	<body >
+		<!--home:head===========================-->
+		<h2>MbR2XgD - Seja Bem-vindo</h2>
+		<!--home:head===========================-->
+
+		<!-- home::desc===============================-->
+		<div name="home_desc"></div>
+		<!-- home::desc===============================-->
+
 	</body>
+	<!-- body text===================================-->
+
+
+	<!-- script===================================-->
+	<script>
+		let wpage = new WebPage();
+		wpage.home_desc();
+	</script>
+	<!-- script===================================-->
 </html>
