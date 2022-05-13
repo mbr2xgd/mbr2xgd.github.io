@@ -23,7 +23,7 @@ class WebPage{
 	//descricao na home page... -------------------
 	home_desc(){
 		let desc_t  =
-			"Meu nome é Milton, sou desenvolvedor C/C++, C#, Python, Lua<br>" + 
+			"Meu nome &eacute; Milton, sou desenvolvedor C/C++, C#, Python, Lua<br>" + 
 			"e desenvolvimento em Games usando Unreal, Unity e Blender<br>" + 
 			"Link: <a href=\"media.html\" target=\"_top\">My Video</a>";
 
@@ -34,7 +34,7 @@ class WebPage{
 	//testando charset utf8... --------------------
 	home_charset(){
 		let charsetutf8 = 
-		"<h3>testing word:atenção and aten&ccedil;&atilde;o</h3>";
+		"<h3>testing word::br::atenção and word::char::aten&ccedil;&atilde;o</h3>";
 
 		document.getElementById("home_text").innerHTML = charsetutf8;
 	}
