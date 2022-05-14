@@ -19,7 +19,6 @@ class WebPage{
 	//method... -----------------------------------
 	//debug... ------------------------------------
 	test(){
-
 		console.log("Done!");
 	}
 	//debug... ------------------------------------
@@ -28,12 +27,22 @@ class WebPage{
 		let desc_t  =
 			"Meu nome &eacute; Milton, sou desenvolvedor C/C++, C#, Python, Lua<br>" + 
 			"e desenvolvimento em Games usando Unreal, Unity e Blender<br>" + 
-			"Link: <a href=\"media.html\" target=\"_top\">Links de test</a>";
+			"<p>&nbsp;</p>" +
+			"[ <a href=\"https://github.com/mbr2xgd\" target=\"_top\">Github MbR2XgD</a> " +
+			"| <a href=\"media.html\" target=\"_top\">Links de test</a> ]";
 
 		document.getElementById("home_desc").innerHTML = desc_t;
 
 	}
 	//descricao na home page... -------------------
+	//testando charset utf8... --------------------
+	home_charset(){
+		let charsetutf8 = 
+		"<h3>testing word::nrm::atenção and word::int::aten&ccedil;&atilde;o</h3>";
+
+		document.getElementById("home_text").innerHTML = charsetutf8;
+	}
+	//testando charset utf8... --------------------
 	//links para os games test... -----------------
 	media_games(){
 		let desc_t = 
@@ -44,14 +53,6 @@ class WebPage{
 		document.getElementById("media_links").innerHTML = desc_t;
 	}
 	//links para os games test... -----------------
-	//testando charset utf8... --------------------
-	home_charset(){
-		let charsetutf8 = 
-		"<h3>testing word::nrm::atenção and word::int::aten&ccedil;&atilde;o</h3>";
-
-		document.getElementById("home_text").innerHTML = charsetutf8;
-	}
-	//testando charset utf8... --------------------
 	//video test(ogg)... --------------------------
 	media_desc(){
 		let mevideo = 
