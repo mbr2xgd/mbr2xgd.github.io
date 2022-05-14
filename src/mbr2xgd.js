@@ -28,7 +28,7 @@ class WebPage{
 		let desc_t  =
 			"Meu nome &eacute; Milton, sou desenvolvedor C/C++, C#, Python, Lua<br>" + 
 			"e desenvolvimento em Games usando Unreal, Unity e Blender<br>" + 
-			"Link: <a href=\"media.html\" target=\"_top\">My Video</a>";
+			"Link: <a href=\"media.html\" target=\"_top\">Links de test</a>";
 
 		document.getElementById("home_desc").innerHTML = desc_t;
 
@@ -55,11 +55,11 @@ class WebPage{
 	//video test(ogg)... --------------------------
 	media_desc(){
 		let mevideo = 
-		"<video width=\"320\" height=\"240\" controls>" + 
+		"<video width=\"640\" height=\"480\" controls>" + 
 		"	<source src=\"media/mbr2xgd.ogg\"> type=\"video/ogg\">" + 
 		"	Your browser does not support the video tag..." +
 		"</video>" + 
-		"<p><a href=\"index.html\" target=\"_top\">Home</a></p>";
+		"<p><a href=\"index.html\" target=\"_top\">Retornar a Home</a></p>";
 
 		document.getElementById("media_video").innerHTML = mevideo;
 	}
